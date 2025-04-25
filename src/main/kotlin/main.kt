@@ -24,9 +24,15 @@ fun main() {
         val finalAnswer = conversion.toFloat() * 3.28084
         println("$conversion meters -> $finalAnswer feet")
     } else if (choice == "2") {
-        // Do something I'm too tired
+        println(unitHeading)
+        val conversion = readln()
+        val finalAnswer = conversion.toFloat() * 2.20462262185
+        println("$conversion Kg -> $finalAnswer pounds")
     } else if (choice == "3") {
-        // Just do something
+        println(unitHeading)
+        val conversion = readln()
+        val finalAnswer = (conversion.toFloat() * 1.8) + 32
+        println("$conversion °C -> $finalAnswer °F")
     } else {
         // Effing....do...something...don't expect me to do it for you
     }

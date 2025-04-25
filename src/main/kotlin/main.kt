@@ -34,6 +34,6 @@ fun main() {
         val finalAnswer = (conversion.toFloat() * 1.8) + 32
         println("$conversion °C -> $finalAnswer °F")
     } else {
-        // Effing....do...something...don't expect me to do it for you
+        println("Nahhh bro this ain't gon' work")
     }
 }
